@@ -1,0 +1,9 @@
+#创建 .gitignore 文件，忽略不需要版本控制的文件
+backend/vendor/
+frontend/node_modules/
+# 忽略环境配置文件（通常包含敏感信息）
+backend/.env
+# 可选的本地覆盖配置
+docker/docker-compose.override.yml
+mysql-data/
+redis-data/
